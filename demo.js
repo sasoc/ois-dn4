@@ -294,7 +294,6 @@ function preberiMeritveVitalnihZnakov() {
 					    success: function (res) {
 					    	if (res.length > 0) {
 						    	visina1=res[0].height;
-						    	alert(visina1);
 						    	var itm=(trenutnateza/((visina1/100)*(visina1/100)));
 						    	besedilo=besedilo + "\nVas trenutni itm je "+itm;
 						    	if(itm<20){
